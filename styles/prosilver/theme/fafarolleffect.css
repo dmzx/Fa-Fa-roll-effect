@@ -1,0 +1,13 @@
+.fa:hover {
+    display: inline-block;
+    cursor: default;
+    transform: rotate(360deg);
+    transition: all 0.9s ease-in-out 0s;
+}
+
+.fa-fw:hover {
+    display: inline-block;
+    cursor: default;
+    transform: rotate(360deg);
+    transition: all 0.9s ease-in-out 0s;
+}

@@ -1,0 +1,40 @@
+{
+	"name": "dmzx/fafarolleffect",
+	"type": "phpbb-extension",
+	"description": "Roll effect on fa fa icons on hover.",
+	"homepage": "http://www.dmzx-web.net",
+	"version": "1.0.0",
+	"time": "2017-01-06",
+	"keywords": ["phpbb", "extension", "Fa Fa roll effect"],
+	"license": "GPL-2.0",
+	"authors": [
+		{
+			"name": "dmzx",
+			"homepage": "http://www.dmzx-web.net",
+			"email": "info@dmzx-web.net",
+			"role": "Extension Developer"
+		},
+		{
+			"name": "martin",
+			"homepage": "http://www.martins.homelinux.net",
+			"role": "Extension Developer"
+		}
+	],
+	"require": {
+		"php": ">=5.3.3"
+	},
+	"require-dev": {
+		"phpbb/epv": "dev-master"
+	},
+	"extra": {
+		"display-name": "Fa Fa roll effect",
+		"soft-require": {
+			"phpbb/phpbb": ">=3.2.0-a1,<3.3.0@dev"
+		},
+		"version-check": {
+			"host": "www.dmzx-web.net",
+			"directory": "/versions",
+			"filename": "fafarolleffect_32x_version.json"
+		}
+	}
+}
